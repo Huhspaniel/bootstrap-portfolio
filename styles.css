@@ -10,12 +10,92 @@ header {
     border-bottom: #cccccc solid 1px;
 }
 
+h1, h2, h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 18px;
+}
+
 h1 {
 	background-color: #4aaaa5;
 	text-align: center;
 	color: white;
 	width: 100%;
 	padding: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+p {
+    line-height: 1.5;
+    padding: 5px 0 5px 0;
+}
+
+main {
+    margin: 30px auto;
+    margin-bottom: 135px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.main-content-inner-border {
+    height: 3px;
+    background-color: #dddddd;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    color: #4aaaa5;
+    height: 200px;
+    margin-right: 15px;
+}
+
+
+form {
+	margin: 20px;
+}
+input, textarea {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+}
+input.submit {
+    width: max-content;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.portfolio-image {
+    width: 308px;
+    height: 308px;
+    position: relative;
+	margin: 0;
+}
+.portfolio-image img, .portfolio-image h3 {
+	box-sizing: border-box;
+    width: 90%;
+    margin: 5%;
+    border: 1px solid #4aaaa5;
+}
+@media only screen and (max-width: 570px) {
+	.portfolio-image img, .portfolio-image h3 {
+		margin: 10%;
+	}
+}
+.portfolio-image h3 {
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    position: absolute;
+    bottom: 10px;
+    padding: 15px 0 15px 0;
 }
 
 footer {
